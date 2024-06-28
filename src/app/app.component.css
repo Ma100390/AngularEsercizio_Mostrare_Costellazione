@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container2 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(222, 225, 230, 0.5);
+    color: #fff;
+    padding: 20px;
+    font-family: 'Mooli', sans-serif;
+    border-radius: 10px;
+  }

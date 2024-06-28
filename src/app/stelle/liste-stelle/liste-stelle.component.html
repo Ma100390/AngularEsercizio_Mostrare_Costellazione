@@ -1,0 +1,10 @@
+<p>liste-stelle</p>
+
+    <li *ngIf="stelle.length">
+        <ul>
+            <li *ngFor="let stella of stelle; let i = index"(click)="setSelectedStella(stella)">
+                <a class="nav-link {{ selectedStella === stella ? 'active' : ''}}" aria-current="page" href="#">{{ (i+1) + ". " + stella.nome }}</a>
+            </li>
+        </ul>
+    </li>
+    <app-dettaglio-stelle [Stella]="selectedStella" ></app-dettaglio-stelle>
