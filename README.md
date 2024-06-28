@@ -1,3 +1,10 @@
+# Mostrare una lista di stelle inizialmente al click della lista mostrare la descrizione del costellazioni
+
+# Argomenti trattati Interfacce, bootstrap, componenti padre e componente figlio
+
+
+
+
 # Verifica
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
